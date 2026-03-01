@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Velaris Boardroom Elite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+
+<!-- PROGRESS BAR -->
+<div id="progressBar" class="progress-bar"></div>
+
+<!-- HEADER -->
+<header class="header">
+
+  <div class="logo">VELARIS</div>
+
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="header-actions">
+    <button id="themeToggle" class="theme-toggle"></button>
+
+    <div id="hamburger" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+</header>
+
+<!-- MOBILE MENU -->
+<div id="mobileMenu" class="mobile-menu">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#impact">Impact</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero reveal">
+  <h1>Strategic Excellence for Modern Enterprises</h1>
+  <p>
+    Velaris Boardroom Elite delivers premium consulting, executive planning, 
+    and financial strategy services designed to elevate high-performance organizations.
+  </p>
+  <a href="#contact" class="btn-primary">Start a Conversation</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section reveal">
+  <h2>About Velaris</h2>
+  <p style="max-width:700px;margin:auto;color:var(--muted);line-height:1.7;">
+    Velaris is a forward-thinking advisory firm focused on transforming leadership vision 
+    into measurable growth. We partner with executives, founders, and enterprise teams 
+    to design resilient strategies, optimize financial structures, and create sustainable impact 
+    in competitive global markets.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section reveal">
+  <h2>Our Core Services</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Executive Strategy</h3>
+      <p style="color:var(--muted);margin-top:15px;">
+        We design long-term strategic roadmaps that align leadership direction 
+        with operational execution and measurable KPIs.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Financial Optimization</h3>
+      <p style="color:var(--muted);margin-top:15px;">
+        Advanced financial modeling and capital structuring 
+        to ensure profitability, scalability, and investment readiness.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Corporate Advisory</h3>
+      <p style="color:var(--muted);margin-top:15px;">
+        High-level consulting support for board decisions, 
+        mergers, acquisitions, and enterprise transformation initiatives.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact" class="section reveal">
+  <h2>Our Impact</h2>
+
+  <div class="stats">
+
+    <div>
+      <h3 class="counter" data-target="150">0</h3>
+      <p style="color:var(--muted);">Global Clients</p>
+    </div>
+
+    <div>
+      <h3 class="counter" data-target="320">0</h3>
+      <p style="color:var(--muted);">Completed Projects</p>
+    </div>
+
+    <div>
+      <h3 class="counter" data-target="12">0</h3>
+      <p style="color:var(--muted);">Years of Excellence</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section reveal">
+  <h2>Contact Our Team</h2>
+
+  <p style="color:var(--muted);margin-bottom:40px;">
+    Have a project or strategic initiative in mind? 
+    Send us a message and our advisory team will respond promptly.
+  </p>
+
+  <form id="contactForm">
+
+    <input type="text" name="user_name" placeholder="Full Name" required>
+
+    <input type="email" name="user_email" placeholder="Business Email" required>
+
+    <textarea name="message" placeholder="Tell us about your project or inquiry" required></textarea>
+
+    <button type="submit" id="submitBtn" class="btn-primary">
+      Send Message
+    </button>
+
+  </form>
+
+</section>
+
+<!-- FOOTER -->
+<footer style="padding:60px 30px;text-align:center;border-top:1px solid var(--border);background:var(--surface);">
+
+  <h3 style="margin-bottom:15px;">Velaris Boardroom Elite</h3>
+
+  <p style="color:var(--muted);max-width:600px;margin:auto;line-height:1.6;">
+    Delivering strategic clarity, financial strength, and executive excellence 
+    for organizations shaping the future.
+  </p>
+
+  <div style="margin-top:30px;color:var(--muted);font-size:14px;">
+    © 2026 Velaris Boardroom Elite. All rights reserved.
+    Designed & Developed by <strong>Oltion Shumolli</strong>
+  </div>
+
+  <div style="margin-top:15px;font-size:13px;color:var(--muted);opacity:0.7;">
+    Note: This website is a demonstration project created for portfolio and development purposes. 
+    All content is fictional and used for presentation only.
+  </div>
+
+</footer>
+
+<!-- TOAST -->
+<div id="toast" class="toast"></div>
+
+<!-- 3D BACKGROUND -->
+<canvas id="bg"></canvas>
+
+<!-- THREE JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- MAIN SCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
