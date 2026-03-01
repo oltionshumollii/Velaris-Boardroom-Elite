@@ -1,0 +1,52 @@
+CUSTOM PERSONAL USE LICENSE
+
+Copyright (c) 2026 Oltion Shumolli
+All Rights Reserved.
+
+1. OWNERSHIP
+
+This project, including but not limited to all source code, design, layout,
+structure, logic, assets, animations, and visual elements, is the exclusive
+intellectual property of Oltion Shumolli.
+
+2. PERMITTED USE
+
+Permission is granted solely to:
+
+- View the project
+- Study the source code
+- Use the project for personal learning
+- Use the project for educational and non-commercial purposes
+
+3. PROHIBITED USE
+
+The following actions are STRICTLY PROHIBITED without explicit prior written
+permission from the author:
+
+- Copying the project in whole or in part
+- Reproducing or redistributing the source code
+- Republishing the project under another name
+- Removing or modifying copyright notices
+- Using the project for commercial purposes
+- Selling, licensing, sublicensing, or monetizing the project
+- Claiming authorship or ownership
+- Using this project within paid products, templates, themes, or services
+- Uploading modified versions as separate repositories
+
+4. NO COMMERCIAL RIGHTS
+
+This license does NOT grant any commercial rights under any circumstance.
+
+5. VIOLATIONS
+
+Any unauthorized use, copying, modification, distribution, or sale of this
+project is strictly prohibited and may result in legal action.
+
+6. PERMISSION REQUESTS
+
+For permissions beyond educational use, including commercial licensing,
+please contact the author directly.
+
+Author:
+Oltion Shumolli  
+GitHub: https://github.com/oltionshumollii
